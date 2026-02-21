@@ -1,0 +1,130 @@
+\documentclass[12pt]{article}
+\usepackage[spanish, es-lcroman]{babel}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+
+\pagestyle{fancy}
+\title{Taller No. 3 de Cálculo}
+\author{Carlos David Pablo Hernández}
+\date{\today}
+
+\setlength{\headheight}{20pt}
+
+\fancyhead[L]{Carlos Pablo}
+\fancyhead[C]{Taller No. 3}
+\fancyhead[R]{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{}
+Resuelva los siguientes ejercicios 
+argumentando cada parte de su procedimiento.
+
+\begin{itemize}
+    \item $1 + \tan^2(\theta) = \sec^2(\theta)$
+        \begin{align*}
+            \cos^2(\theta) + \sin^2(\theta) &= 1 \\ \\
+            \frac{1}{\cos^2(\theta)} \left( \cos^2(\theta) + \sin^2(\theta) \right) &= 1 \cdot  \frac{1}{\cos^2(\theta)} \\ \\
+            \frac{\cos^2(\theta)}{\cos^2(\theta)} + \frac{\sin^2(\theta)}{\cos^2(\theta)} &= \frac{1}{\cos^2(\theta)} \\ \\
+            1 + \tan^2(\theta) &= \sec^2(\theta) \tag*{$\square$}
+        \end{align*}
+
+
+    \item $1 + \cot^2(\theta) = \csc^2(\theta)$
+        \begin{align*}
+            \cos^2(\theta) + \sin^2(\theta) &= 1 \\ \\
+            \frac{1}{\sin^2(\theta)} \left( \cos^2(\theta) + \sin^2(\theta) \right) &= 1 \cdot \frac{1}{\sin^2(\theta)} \\ \\
+            \frac{\cos^2(\theta)}{\sin^2(\theta)} + \frac{\sin^2(\theta)}{\sin^2(\theta)} &= \frac{1}{\sin^2(\theta)} \\ \\
+            \frac{\sin^2 (\theta)}{\sin^2 (\theta)} + \frac{\cos^2 (\theta)}{\sin^2 (\theta)} &= \frac{1}{\sin^2 (\theta)} \\ \\
+            1 + \cot^2(\theta) &= \csc^2(\theta) \tag*{$\square$}
+        \end{align*}
+            \\
+
+    \item $\sin \left(2 \theta\right) = 2 \sin(\theta) \cos \left(\theta\right)$
+        \begin{align*}
+            \sin(\theta + \theta) &= \sin(\theta)\cos(\theta) + \cos(\theta)\sin(\theta) \\
+            \sin(2 \theta)&= 2\sin(\theta)\cos(\theta) \tag*{$\square$}
+        \end{align*}
+            \\
+
+    \item $\cos(2 \theta) = \cos^2(\theta) - \sin^2(\theta) = 1 - 2\sin^2(\theta)$
+        \begin{align*}
+            \cos(\theta + \theta) &= \cos(\theta) \cos(\theta) - \sin(\theta) \sin(\theta) \\
+            \cos(2 \theta) &= \cos^2(\theta) - \sin^2 (\theta)  \tag*{$\square$}\\ \\
+            \cos^2(\theta) + \sin^2(\theta) &= 1 \\
+            \cos^2(\theta) &= 1 - \sin^2(\theta) \\ \\
+            \cos(2 \theta) &= \cos^2(\theta) - \sin^2 (\theta) \\
+            \cos(2 \theta) &= 1 - \sin^2(\theta) - \sin^2 (\theta) \\
+            \cos(2 \theta) &= 1 - 2\sin^2(\theta) \tag*{$\square$}
+        \end{align*}
+
+
+    \item $\cos(2 \theta) = 2\cos^2(\theta) - 1$
+        \begin{align*}
+            \cos^2(\theta) + \sin^2(\theta) &= 1 \\
+            \sin^2(\theta) &= 1 - \cos^2(\theta) \\ \\
+            \cos(2 \theta) &= \cos^2(\theta) - \sin^2 (\theta) \\
+            \cos(2 \theta) &= \cos^2(\theta) - (1 - \cos^2(\theta)) \\
+            \cos(2 \theta) &= \cos^2(\theta) - 1 + \cos^2(\theta) \\
+            \cos(2 \theta) &= 2\cos^2(\theta) - 1 \tag*{$\square$}
+        \end{align*}
+            \\
+
+    \item $\tan(2 \theta) = \frac{2\tan(\theta)}{1 - \tan^2(\theta)}$
+        \begin{align*}
+            \tan(\theta + \theta) &= \frac{\tan(\theta) + \tan(\theta)}{1 - \tan(\theta)\tan(\theta)} \\
+            \tan(2 \theta) &= \frac{2\tan(\theta)}{1 - \tan^2(\theta)} \tag*{$\square$}
+        \end{align*}
+            \\
+
+    \item $\sin \left(\frac{\theta}{2}\right) = \pm \sqrt{\frac{1 - \cos(\theta)}{2}}$
+        \begin{align*} 
+            \cos (2 \theta) &= 1 - 2\sin^2(\theta) \\
+            2\sin^2(\theta) &= 1 - \cos(2 \theta) \\ \\
+            x &= 2 \theta  \\
+            \frac{x}{2} &= \theta \\ \\
+            2 \sin^2 \left(\frac{x}{2}\right) &= 1 - \cos(x) \\
+            \sqrt{\sin^2 \left(\frac{x}{2}\right)} &= \sqrt{\frac{1 - \cos(x)}{2}} \\
+            \sin \left(\frac{x}{2}\right) &= \pm \sqrt{\frac{1 - \cos(x)}{2}} \tag*{$\square$}
+        \end{align*}
+            \\
+
+    \item $\cos(\frac{\theta}{2}) = \pm \sqrt{\frac{1 + \cos(\theta)}{2}}$
+        \begin{align*}
+            \cos (2 \theta) &= 2\cos^2(\theta) - 1 \\
+            - 2\cos^2(\theta) &= -1 - \cos(2 \theta) \\
+            2\cos^2(\theta) &= 1 + \cos(2 \theta) \\ \\
+            x &= 2 \theta  \\
+            \frac{x}{2} &= \theta \\ \\
+            2\cos^2 \left(\frac{x}{2}\right) &= 1 + \cos(x) \\
+            \sqrt{\cos^2 \left(\frac{x}{2}\right)} &= \sqrt{\frac{1 + \cos(x)}{2}} \\
+            \cos \left(\frac{x}{2}\right) &= \pm \sqrt{\frac{1 + \cos(x)}{2}} \tag*{$\square$}
+        \end{align*}
+            \\
+
+    \item $\tan(\frac{\theta}{2}) = \frac{1 - \cos(\theta)}{\sin(\theta)} = \frac{\sin(\theta)}{1 + \cos(\theta)}$
+        \begin{align*}
+            \tan (2 \theta) &= \frac{2\tan(\theta)}{1 - \tan^2(\theta)} \\
+            x &= 2 \theta  \\
+            \frac{x}{2} &= \theta \\ \\
+        \end{align*}    
+       
+    \item $\sin(\theta) + \sin (\beta) = 2 \sin (\frac{\theta + \beta}{2})\cos (\frac{\theta - \beta}{2})$
+    \item $\cos(\theta) + \cos (\beta) = 2 \cos (\frac{\theta + \beta}{2})\cos (\frac{\theta - \beta}{2})$
+    \item $\cos(\theta) - \cos(\beta) = -2 \sin (\frac{\theta + \beta}{2})\sin (\frac{\theta - \beta}{2})$
+    \item $\sin(\theta) \sin(\beta) = \frac{1}{2}[\cos(\theta - \beta) - \cos(\theta + \beta)]$
+    \item $\cos(\theta) \cos(\beta) = \frac{1}{2}[\cos(\theta + \beta) + \cos(\theta - \beta)]$
+    \item $\sin(\theta) \cos(\beta) = \frac{1}{2}[\sin(\theta + \beta) + \sin(\theta - \beta)]$
+    \item $\sin(\pi \pm \theta) = \mp \sin(\theta)$
+    \item $\cos(\pi \pm \theta) = -\cos(\theta)$
+    \item $\sin(\frac{\pi}{2} - \theta) = \cos(\theta)$
+    \item $\cos(\frac{\pi}{2} - \theta) = \sin(\theta)$
+    \item $\sin(- \theta) = -\sin(\theta)$
+    \item $\cos(- \theta) = \cos(\theta)$
+\end{itemize}
+
+\end{document}
