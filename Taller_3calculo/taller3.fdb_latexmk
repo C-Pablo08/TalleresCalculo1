@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1771712472.46866 "/home/c-pablo/Documentos/TalleresCalculo1/Taller_3calculo/taller3.tex" "taller3.pdf" "taller3" 1771712472.67749 0
-  "/home/c-pablo/Documentos/TalleresCalculo1/Taller_3calculo/taller3.tex" 1771712472.01805 5756 cbe15d1325eed60243b19547c2e356d5 ""
+["pdflatex"] 1772071714.62786 "/home/c-pablo/Documentos/TalleresCalculo1/Taller_3calculo/taller3.tex" "taller3.pdf" "taller3" 1772071714.86663 0
+  "/home/c-pablo/Documentos/TalleresCalculo1/Taller_3calculo/taller3.tex" 1772071714.47695 12378 516e5bd84931c8b8d0ee1154ca959382 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -53,8 +53,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1770681600 40900 887e0dc8cac988a9e9c574af364cf837 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1771627920.63313 4546797 7fbd021eff59aabc2712c933b5dccd88 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1771627742 7759918 10f8c0826168d3357aeb4c01b7191ccb ""
-  "taller3.aux" 1771712472.64397 282 1adb736c9516be4936c42d63364afe1a "pdflatex"
-  "taller3.tex" 1771712472.01805 5756 cbe15d1325eed60243b19547c2e356d5 ""
+  "taller3.aux" 1772071714.83194 282 867688d56c933700073a9a7a37ed3c7c "pdflatex"
+  "taller3.tex" 1772071714.47695 12378 516e5bd84931c8b8d0ee1154ca959382 ""
   (generated)
   "taller3.aux"
   "taller3.log"

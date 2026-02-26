@@ -128,19 +128,110 @@ argumentando cada parte de su procedimiento.
        
     \item $\sin(\theta) + \sin (\beta) = 2 \sin (\frac{\theta + \beta}{2})\cos (\frac{\theta - \beta}{2})$
         \begin{align*}
-            \sin
+            x &= \frac{\theta + \beta}{2} \\
+            y &= \frac{\theta - \beta}{2} \\ 
+            \theta &= x + y \\
+            \beta &= x - y \\ \\
+            \sin(\theta) + \sin(\beta) &=\sin(x+y) + \sin(x-y)  \\
+            \sin(x+y) + \sin(x-y) &= \sin(x)\cos(y) + \cos(x)\sin(y) + \sin(x)\cos(y) - \cos(x)\sin(y) \\
+            \sin(x+y) + \sin(x-y) &= 2\sin(x)\cos(y) \\
+            \sin(\theta) + \sin (\beta) &= 2\sin \left(\frac{\theta + \beta}{2}\right) \cos \left(\frac{\theta - \beta}{2}\right) \tag*{$\square$}
         \end{align*}    
+
     \item $\cos(\theta) + \cos (\beta) = 2 \cos (\frac{\theta + \beta}{2})\cos (\frac{\theta - \beta}{2})$
+        \begin{align*}
+            x &= \frac{\theta + \beta}{2} \\
+            y &= \frac{\theta - \beta}{2} \\ \\
+            \cos(\theta) + \cos(\beta) &= \cos(x+y) + \cos(x-y) \\
+            \cos(x+y) + \cos(x-y) &= \cos(x)\cos(y) - \sin(x)\sin(y) + \cos(x)\cos(y) + \sin(x)\sin(y) \\
+            \cos(x+y) + \cos(x-y) &= 2\cos(x)\cos(y) \\
+            \cos(\theta) + \cos (\beta) &= 2 \cos \left(\frac{\theta + \beta}{2}\right) \cos \left(\frac{\theta - \beta}{2}\right) \tag*{$\square$}
+        \end{align*}
+
     \item $\cos(\theta) - \cos(\beta) = -2 \sin (\frac{\theta + \beta}{2})\sin (\frac{\theta - \beta}{2})$
+        \begin{align*}
+            x &= \frac{\theta + \beta}{2} \\
+            y &= \frac{\theta - \beta}{2} \\ \\
+            \cos(\theta) - \cos(\beta) &= \cos(x+y) - \cos(x-y) \\
+            \cos(x+y) - \cos(x-y) &= \cos(x)\cos(y) - \sin(x)\sin(y) -( (\cos(x)\cos(y) + \sin(x)\sin(y)) )\\
+             \cos(x+y) - \cos(x-y) &= \cos(x)\cos(y) - \sin(x)\sin(y) -(\cos(x)\cos(y) - \sin(x)\sin(y)) \\
+            \cos(x+y) - \cos(x-y) &= -2\sin(x)\sin(y) \\
+            \cos(\theta) - \cos(\beta) &= -2\sin\left(\frac{\theta + \beta}{2}\right)\sin\left(\frac{\theta - \beta}{2}\right)  \tag*{$\square$} \\
+        \end{align*}
+
     \item $\sin(\theta) \sin(\beta) = \frac{1}{2}[\cos(\theta - \beta) - \cos(\theta + \beta)]$
+        \begin{gather*}
+            \frac{1}{2}[\cos(\theta - \beta) - \cos(\theta + \beta)] \\
+            =\frac{1}{2}[\cos(\theta)\cos(\beta) + \sin(\theta)\sin(\beta) - (\cos(\theta)\cos(\beta) - \sin(\theta)\sin(\beta))] \\
+            = \frac{1}{2}[\cos(\theta)\cos(\beta) + \sin(\theta)\sin(\beta) - \cos(\theta)\cos(\beta) + \sin(\theta)\sin(\beta)] \\
+            = \frac{1}{2}[2\sin(\theta)\sin(\beta)] \\
+            = \sin(\theta)\sin(\beta) \tag*{$\square$} \\
+        \end{gather*}
+
     \item $\cos(\theta) \cos(\beta) = \frac{1}{2}[\cos(\theta + \beta) + \cos(\theta - \beta)]$
+        \begin{gather*}
+            \frac{1}{2}[\cos(\theta + \beta) + \cos(\theta - \beta)] \\
+            =\frac{1}{2}[\cos(\theta)\cos(\beta) - \sin(\theta)\sin(\beta) + \cos(\theta)\cos(\beta) + \sin(\theta)\sin(\beta)] \\
+            =\frac{1}{2}[2\cos(\theta)\cos(\beta)] \\
+            =\cos(\theta)\cos(\beta) \tag*{$\square$} \\
+        \end{gather*}
     \item $\sin(\theta) \cos(\beta) = \frac{1}{2}[\sin(\theta + \beta) + \sin(\theta - \beta)]$
+        \begin{gather*}
+            \frac{1}{2}[\sin(\theta + \beta) + \sin(\theta - \beta)] \\
+            =\frac{1}{2}[\sin(\theta)\cos(\beta) + \cos(\theta)\sin(\beta) + \sin(\theta)\cos(\beta) - \cos(\theta)\sin(\beta)] \\
+            =\frac{1}{2}[2\sin(\theta)\cos(\beta)] \\
+            =\sin(\theta)\cos(\beta) \tag*{$\square$} \\
+        \end{gather*}
+
     \item $\sin(\pi \pm \theta) = \mp \sin(\theta)$
+        \begin{align*}
+            \sin(\pi + \theta) &= \sin(\pi)\cos(\theta) + \cos(\pi)\sin(\theta) \\
+            \sin(\pi + \theta) &= 0 \cdot \cos(\theta) + (-1)\sin(\theta) \\
+            \sin(\pi + \theta) &= -\sin(\theta) \tag*{$\square$} \\ \\
+            \sin(\pi - \theta) &= \sin(\pi)\cos(\theta) - \cos(\pi)\sin(\theta) \\
+            \sin(\pi - \theta) &= 0 \cdot \cos(\theta) - (-1)\sin(\theta) \\
+            \sin(\pi - \theta) &=  \sin(\theta)  \tag*{$\square$}
+        \end{align*}
+
     \item $\cos(\pi \pm \theta) = -\cos(\theta)$
+        \begin{align*}
+            \cos(\pi + \theta) &= \cos(\pi)\cos(\theta) - \sin(\pi)\sin(\theta) \\
+            \cos(\pi + \theta) &= (-1)\cos(\theta) - 0 \cdot \sin(\theta) \\
+            \cos(\pi + \theta) &= -\cos(\theta) \tag*{$\square$} \\ \\
+            \cos(\pi - \theta) &= \cos(\pi)\cos(\theta) + \sin(\pi)\sin(\theta) \\
+            \cos(\pi - \theta) &= (-1)\cos(\theta) + 0 \cdot \sin(\theta) \\
+            \cos(\pi - \theta) &= -\cos(\theta)  \tag*{$\square$}
+        \end{align*}
+
     \item $\sin(\frac{\pi}{2} - \theta) = \cos(\theta)$
+        \begin{align*}
+            \sin\left(\frac{\pi}{2} - \theta\right) &= \sin\left(\frac{\pi}{2}\right)\cos(\theta) - \cos\left(\frac{\pi}{2}\right)\sin(\theta) \\
+            \sin\left(\frac{\pi}{2} - \theta\right) &= 1 \cdot \cos(\theta) - 0 \cdot \sin(\theta) \\
+            \sin\left(\frac{\pi}{2} - \theta\right) &= \cos(\theta)  \tag*{$\square$}
+        \end{align*}
+
     \item $\cos(\frac{\pi}{2} - \theta) = \sin(\theta)$
+        \begin{align*}
+            \cos\left(\frac{\pi}{2} - \theta\right) &= \cos\left(\frac{\pi}{2}\right)\cos(\theta) + \sin\left(\frac{\pi}{2}\right)\sin(\theta) \\
+            \cos\left(\frac{\pi}{2} - \theta\right) &= 0 \cdot \cos(\theta) + 1 \cdot \sin(\theta) \\
+            \cos\left(\frac{\pi}{2} - \theta\right) &= \sin(\theta)  \tag*{$\square$}
+        \end{align*}
+
     \item $\sin(- \theta) = -\sin(\theta)$
+        \begin{align*}
+            \sin(-\theta) &= \sin(0 - \theta) \\
+            \sin(-\theta) &= \sin(0)\cos(\theta) - \cos(0)\sin(\theta) \\
+            \sin(-\theta) &= 0 \cdot \cos(\theta) - 1 \cdot \sin(\theta) \\
+            \sin(-\theta) &= -\sin(\theta)  \tag*{$\square$}
+        \end{align*}
+
     \item $\cos(- \theta) = \cos(\theta)$
+        \begin{align*}
+            \cos(-\theta) &= \cos(0 - \theta) \\
+            \cos(-\theta) &= \cos(0)\cos(\theta) + \sin(0)\sin(\theta) \\
+            \cos(-\theta) &= 1 \cdot \cos(\theta) + 0 \cdot \sin(\theta) \\
+            \cos(-\theta) &= \cos(\theta)  \tag*{$\square$}
+        \end{align*}
 \end{itemize}
 
 \end{document}
